@@ -1,0 +1,46 @@
+.btn {
+    height: 45px;
+    border-radius: 10px;
+    background: $main-color;
+    box-shadow:  20px 20px 40px #60a9a1,
+                -20px -20px 40px #a0ffff;
+    padding: 12px 25px;
+    &:hover {
+        border: 1px solid #000;
+    }    
+    &:active {
+        box-shadow: 4px 4px 12px #c5c5c5,
+                    -4px -4px 12px #ffffff;
+    }
+}
+
+.about {    
+    display: inline-block;
+    position: relative;
+    text-decoration: none;
+    color: #000;
+    margin: 0 auto;
+    transition: margin .25s;
+    svg {
+        width: 110px;
+        height: 45px;
+        position: absolute;
+        left: 50%;
+        bottom: 0;
+        transform: translate(-50%, 7px) translateZ(0);
+        fill: none;
+        stroke: var(--stroke, #000);
+        stroke-linecap: round;
+        stroke-width: 2px;
+        stroke-dasharray: var(--offset, 69px) 278px;
+        stroke-dashoffset: 361px;
+        transition: stroke .25s ease var(--stroke-delay, 0s), stroke-dasharray .35s;
+    }
+    &:hover {
+        --spacing: 4px;
+        --stroke: var(--line-active);
+        --stroke-delay: .1s;
+        --offset: 180px;
+    }
+}
+
