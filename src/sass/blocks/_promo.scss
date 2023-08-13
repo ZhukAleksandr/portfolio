@@ -7,6 +7,7 @@
     &__title {
         width: 535px;
         margin-top: 10px;
+        padding-left: 10px;
     }
     &__subtitle {
         position: relative;
@@ -16,8 +17,9 @@
     }
     &__btns {
         margin-top: 25px;
+        padding-left: 10px;
         display: flex;
-        width: 250px;
+        width: 270px;
         align-items: center;
         justify-content: space-between;
     }
