@@ -1,11 +1,11 @@
 @import 'libs/bootstrap-reboot.min';
-@import url('https://fonts.googleapis.com/css2?family=Courgette&family=IBM+Plex+Sans+Arabic:wght@400;700&family=Josefin+Sans:wght@400;700&family=Noto+Serif+Georgian&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Istok+Web:wght@400;700&display=swap');
 
 @import 'base/variables';
 @import 'base/mixins';
 
 * {
-    font-family: 'Josefin Sans', sans-serif;
+    font-family: 'Istok Web', sans-serif;
     margin: 0;
     padding: 0;
 }
@@ -20,7 +20,8 @@
 .divider {
     width: 60px;
     height: 3px;
-    background-color: $main-color;    
+    background-color: $main-color;
+    margin: 25px auto 0 auto;    
 }
 
 @import 'blocks/promo';
@@ -29,4 +30,5 @@
 @import 'blocks/sidepanel';
 @import 'blocks/menu';
 @import 'blocks/aboutme';
+@import 'blocks/resume';
 
