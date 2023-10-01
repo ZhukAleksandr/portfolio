@@ -22,8 +22,9 @@
         gap: 13px;        
     }
     &__item {
-        border: 1px solid #000;
-        background: rgba(196, 196, 196, 0.00);
+        border-radius: 10px;        
+        box-shadow:  8px 8px 16px $main-color,
+                    -8px -8px 16px #ffffff;
         padding: 30px 30px 25px 30px;
         &-img {
             display: flex;
