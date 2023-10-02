@@ -15,6 +15,24 @@
     }
 }
 
+.btn_form {   
+    font-size: 20px;       
+    height: 45px;
+    width: 150px;
+    border-radius: 10px;
+    background-color: $main-color;
+    border: none;    
+    box-shadow:  10px 10px 20px #60a9a1,
+                -5px -5px 10px #a0ffff;
+    &:hover {
+        border: 1px solid #000;
+    }    
+    &:active {
+        box-shadow: 4px 4px 12px #c5c5c5,
+                    -4px -4px 12px #ffffff;                 
+    }
+}
+
 .about {    
     display: inline-block;
     position: relative;
