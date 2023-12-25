@@ -1,0 +1,60 @@
+@media (max-width: 1200px){
+    .container{
+        max-width: 960px;
+    }
+    .sidepanel {
+        display: none;
+    }
+}
+
+@media (max-width: 992px){
+    .container{
+        max-width: 720px;
+    }
+}
+
+@media (max-width: 768px){
+    .container{
+        max-width: 540px;
+    }
+    .title {        
+        &_fz28 {
+            font-size: 28px;
+        }
+    }
+    .promo {
+        &__title{
+            line-height: 39px;
+            width: 150px;
+        }
+    }
+}
+
+@media (max-width: 576px){
+    .container{
+        width: 100%;
+        padding: 0 10px;
+    }
+    .title {   
+        max-width: 270px;
+        line-height: 40px;     
+        &_fz26 {
+            font-size: 26px;
+        }
+    }
+    .menu {
+        &__block {
+            width: 250px;
+            padding-left: 20px;
+        }
+        &__link {
+            font-size: 25px;
+            line-height: 40px;            
+        }
+    }
+    .promo {
+        padding-top: 150px;
+        padding-bottom: 75px;
+        background: url('../img/main_bg.jpg') no-repeat 70%/cover;
+    }
+}
